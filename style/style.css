@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contaner{
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+  height: 500px;
+}
+.top{
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.top h5{
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+.top p{
+  font-size: 25px;
+  padding: 10px 5px;
+}
+.btn{
+  padding: 12px 45px;
+  margin: 5px;
+  background-color: #0ec3fe;
+  color: white;
+  border-radius: 30px;
+  margin-top: 10px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #0ec3fe ;
+}
+
+#phone{
+  position: absolute;
+  right: 20%;
+  z-index: 55;
+  top: 0%;
+  margin-top: 55px;
+}
+.bgtext{
+  background-image: url(../asserts/bg.jpg);
+  background-size: cover;
+  align-items: center;
+  color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.bgtext p span{
+text-align: center;
+font-size: 20px;
+line-height: 50px;
+}
+.bgtext p {
+  text-align: center;
+  padding: 15px 45px;
+}
+#span{
+  text-align: center;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  display: inline-block;
+  color: #08f7ef;
+
+}
+.contaner3{
+  margin: 0% auto;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  flex-direction: column;
+}
+.contaner3 p span{
+  font-size: 35px;
+  line-height: 90px;
+}
+.btn2{
+  padding: 5px 55px;
+  margin: 5px;
+  background-color: #0ec3fe;
+  color: white;
+  border-radius: 30px;
+  margin-top: 30px;
+  font-size: 30px;
+  outline: none;
+  border: 1px solid #0ec3fe;
+}
+
+footer{
+  background-image: url(../asserts/bg.jpg);
+  height: 600px;
+  align-items: center;
+  text-align: center;
+}
+.contaner4{
+  display: inline-block;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 10%;
+  color: white;
+}
+.img{
+  border: 1px dashed white;
+  padding: 40px 50px;
+  display: inline-block;
+  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-contant h1{
+  line-height: 80px;
+}
+footer a {
+  color: white;
+}
